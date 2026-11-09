@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "inbox-assistant",
+  "version": "0.2.2",
+  "description": "Review Gmail, Outlook, or hosted IMAP reply drafts, then schedule checks.",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/inbox-assistant/SKILL.md",
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Inbox Assistant",
+        "shortDescription": "Review reply drafts, then schedule inbox checks",
+        "category": "Productivity"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "inbox-assistant-preview",
+  "interface": {
+    "displayName": "Inbox Assistant Preview"
+  },
+  "plugins": [
+    {
+      "name": "inbox-assistant",
+      "source": {
+        "source": "local",
+        "path": "./plugins/inbox-assistant"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

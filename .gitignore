@@ -1,0 +1,25 @@
+# Local scratch, downloaded dependencies, and generated release artifacts
+/work/
+/outputs/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Mailbox configuration, credentials, and temporary operation state
+.env
+.env.*
+accounts.json
+accounts.json.tmp
+*.pending-draft
+*.draft-lock
+*.pem
+*.key
+*.log
+*.eml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

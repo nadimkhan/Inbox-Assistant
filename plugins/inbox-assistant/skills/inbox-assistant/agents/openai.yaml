@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inbox Assistant"
+  short_description: "Review reply drafts, then schedule inbox checks"
+  default_prompt: "Use $inbox-assistant to connect my Gmail, Microsoft Outlook, or hosted IMAP mailbox, review reply drafts with me, and then choose my check schedule."
